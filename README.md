@@ -1,10 +1,10 @@
 # File Viewer 🌐
 
 ## Description:
-File Viewer is a lightweight Node.js application that allows you to upload files (txt, js, php, css) and quickly display their content. It’s perfect for developers who need to explore, analyze, or copy code snippets for further use.
+File Viewer is a lightweight Node.js application that allows you to upload files (txt, js, php, css) and quickly display their content. It’s perfect for developers, marketers, seo, studients... who need to explore, analyze, or copy code snippets for further use.
 
 ## Descripción:
-File Viewer es una aplicación ligera en Node.js que permite subir archivos (txt, js, php, css) y visualizar rápidamente su contenido. Es ideal para desarrolladores que necesitan explorar, analizar o copiar fragmentos de código para su uso posterior.
+File Viewer es una aplicación ligera en Node.js que permite subir archivos (txt, js, php, css) y visualizar rápidamente su contenido. Es ideal para desarrolladores, especilistas en marketing, SEOs, estudiantes, etc. que necesitan explorar, analizar o copiar fragmentos de código para su uso posterior.
 
 ---
 
