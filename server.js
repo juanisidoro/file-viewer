@@ -3,11 +3,8 @@ import multer from 'multer';
 import AdmZip from 'adm-zip';
 import fs from 'fs';
 import path from 'path';
-import { fileURLToPath } from 'url';  // Importamos fileURLToPath
-import pkg from 'node-unrar-js';
-const { extract } = pkg;
+import { fileURLToPath } from 'url'; 
 
-// Obtener el __dirname equivalente en módulos ES
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
@@ -19,8 +16,6 @@ const upload = multer({ dest: 'uploads/' });
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.json());
 
-
-// Maneja la subida de archivos
 app.post('/upload', upload.array('files'), (req, res) => {
     if (!req.files || req.files.length === 0) {
         return res.status(400).json({ error: 'No se subieron archivos.' });
@@ -55,7 +50,7 @@ app.post('/upload', upload.array('files'), (req, res) => {
             fileTree.push({ name: file.originalname, children: [] });
         }
 
-        fs.unlinkSync(filePath); // Eliminar archivo temporal
+        fs.unlinkSync(filePath);
     });
 
     const format = req.body.format;

@@ -42,7 +42,7 @@ File Viewer es una aplicación ligera en Node.js que permite subir archivos (txt
 
 ### **Step 1: Clone the repository / Clona el repositorio**
 ```
-git clone https://github.com/yourusername/file-viewer.git
+git clone https://github.com/juanisidoro/file-viewer.git
 cd file-viewer
 ```
 
